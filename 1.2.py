@@ -14,7 +14,7 @@ plt.plot(x,y)
 #discrete
 x = np.arange(-0, 2.01, 1)
 y1 = np.cos(2*pi*x)
-y2 = np.sin(pi*x)
+y2 = j*np.sin(pi*x)
 y = y1+y2
 plt.stem(x,y)
 
